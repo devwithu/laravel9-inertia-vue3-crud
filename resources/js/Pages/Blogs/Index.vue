@@ -33,9 +33,36 @@ function destroy(id) {
         </template>
 
         <div class="py-12">
+
+
+
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
 
+
                 <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
+                    <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        variant="outlined"
+                    >
+                        <v-card-item>
+                            <div>
+                                <div class="text-overline mb-1">
+                                    OVERLINE
+                                </div>
+                                <div class="text-h6 mb-1">
+                                    Headline
+                                </div>
+                                <div class="text-caption">Greyhound divisely hello coldly fonwderfully</div>
+                            </div>
+                        </v-card-item>
+
+                        <v-card-actions>
+                            <v-btn variant="outlined">
+                                Button
+                            </v-btn>
+                        </v-card-actions>
+                    </v-card>
                     <div class="p-6 bg-white border-b border-gray-200">
                         <div class="mb-2">
                             <Link :href="route('blogs.create')">
@@ -120,4 +147,6 @@ function destroy(id) {
 
 
     </BreezeAuthenticatedLayout>
+
+
 </template>
